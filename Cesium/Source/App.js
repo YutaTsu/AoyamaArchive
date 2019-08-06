@@ -5,5 +5,5 @@
     modelMatrix : modelMatrix,
     scale : 10.0
     }));
-    var viewer.camera.flyTo({
+ var viewer.camera.flyTo({
     destination : Cesium.Cartesian3.fromDegrees(-35.665439,139.712533,1000)});
