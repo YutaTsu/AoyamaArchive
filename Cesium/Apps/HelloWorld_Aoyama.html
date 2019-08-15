@@ -21,7 +21,7 @@
   <script>
     var viewer = new Cesium.Viewer('cesiumContainer');
     var scene = viewer.scene;
-    var modelMatrix = Cesium.Transforms.northUpEastToFixedFrame(
+    var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(
     Cesium.Cartesian3.fromDegrees(139.712533,35.665439,0));
     var model = scene.primitives.add(Cesium.Model.fromGltf({
     url : 'https://yutatsu.github.io/AoyamaArchive/Cesium/Apps/SampleData/models/model_190815.gltf',
