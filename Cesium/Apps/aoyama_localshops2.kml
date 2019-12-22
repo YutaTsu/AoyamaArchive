@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>aoyama_localshops.kml</name>
-	<StyleMap id="msn_pink-circle0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_pink-circle0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_pink-circle0</styleUrl>
-		</Pair>
-	</StyleMap>
+	<name>aoyama_localshops2.kml</name>
 	<Style id="sn_pink-circle">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -26,9 +16,9 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_pink-circle0">
+	<Style id="sh_pink-circle">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
 			</Icon>
@@ -54,19 +44,9 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_pink-circle">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_pink-circle</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_pink-circle</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_pink-circle">
+	<Style id="sn_pink-circle0">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
 			</Icon>
@@ -78,8 +58,29 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_pink-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_pink-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-circle</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>お気に入り</name>
+		<open>1</open>
 		<Style>
 			<ListStyle>
 				<listItemType>check</listItemType>
@@ -97,9 +98,9 @@
 		</Style>
 		<Placemark>
 			<name>山陽堂書店</name>
-			<description><![CDATA[<img src="https://raw.githubusercontent.com/YutaTsu/AoyamaArchive/Cesium/Apps/S__174047236のコピー2.jpg">
-			山陽堂書店
-            明治創業]]></description>
+			<description><![CDATA[山陽堂書店
+明治創業
+<img src="https://github.com/YutaTsu/AoyamaArchive/blob/master/Cesium/Apps/block.jpg?raw=true">]]></description>
 			<LookAt>
 				<longitude>139.7125408592403</longitude>
 				<latitude>35.66553023268105</latitude>
